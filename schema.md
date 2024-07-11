@@ -18,11 +18,6 @@ last_name varchar
 sex varchar(1)
 hire_date date
 
-Salaries
--
-emp_no int PK FK >- Employees.emp_no
-salary int
-
 Dept_emp
 -
 emp_no int PK FK >- Employees.emp_no
@@ -32,3 +27,8 @@ Dept_manager
 -
 dept_no varchar(5) PK FK >- Departments.dept_no
 emp_no int PK FK >- Employees.emp_no
+
+Salaries
+-
+emp_no int PK FK >- Employees.emp_no
+salary int
